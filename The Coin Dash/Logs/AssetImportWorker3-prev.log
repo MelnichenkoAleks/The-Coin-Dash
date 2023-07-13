@@ -1,0 +1,346 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.6f1 (7da38d85baf6) revision 8233869'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit Professional' Language: 'ru' Physical Memory: 16315 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+E:\Programs\Unity\2021.3.6f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+C:/Program Files/The Coin Dash(3D Runner)
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+49218
+Successfully changed project path to: C:/Program Files/The Coin Dash(3D Runner)
+C:/Program Files/The Coin Dash(3D Runner)
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 112.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.6f1 (7da38d85baf6)
+[Subsystems] Discovering subsystems at path E:/Programs/Unity/2021.3.6f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Program Files/The Coin Dash(3D Runner)/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1060 3GB (ID=0x1c02)
+    Vendor:   NVIDIA
+    VRAM:     2988 MB
+    Driver:   30.0.15.1215
+Initialize mono
+Mono path[0] = 'E:/Programs/Unity/2021.3.6f1/Editor/Data/Managed'
+Mono path[1] = 'E:/Programs/Unity/2021.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'E:/Programs/Unity/2021.3.6f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56948
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: E:/Programs/Unity/2021.3.6f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: E:/Programs/Unity/2021.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003712 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 93.33 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.748 seconds
+Domain Reload Profiling:
+	ReloadAssembly (748ms)
+		BeginReloadAssembly (87ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (531ms)
+			LoadAssemblies (87ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (134ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (312ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (58ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (93ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (109ms)
+				ProcessInitializeOnLoadMethodAttributes (50ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.009533 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Program Files\The Coin Dash(3D Runner)\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Program Files\The Coin Dash(3D Runner)\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.262 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1263ms)
+		BeginReloadAssembly (218ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (123ms)
+		EndReloadAssembly (918ms)
+			LoadAssemblies (91ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (296ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (430ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (109ms)
+				ProcessInitializeOnLoadAttributes (269ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3378 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (111.0 KB). Loaded Objects now: 3842.
+Memory consumption went from 119.4 MB to 119.3 MB.
+Total: 3.476400 ms (FindLiveObjects: 0.300700 ms CreateObjectMapping: 0.088100 ms MarkObjects: 2.975400 ms  DeleteObjects: 0.110900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 91020.095225 seconds.
+  path: Assets/01_Simple city plain/Mesh/Materials/Gold.mat
+  artifactKey: Guid(b2f722d180054e94e974696b00cc56d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_Simple city plain/Mesh/Materials/Gold.mat using Guid(b2f722d180054e94e974696b00cc56d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8af4f893838c69733cfea40da16b767e') in 0.156886 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/01_Simple city plain/Material & Texture/Colors_buildings/J1.mat
+  artifactKey: Guid(8bf8e8eb3c4ec9c4e9f79488c39bff59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_Simple city plain/Material & Texture/Colors_buildings/J1.mat using Guid(8bf8e8eb3c4ec9c4e9f79488c39bff59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30c0d936faed342f18279e15b6cf7f7b') in 0.028823 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/01_Simple city plain/Mesh/Materials/roof 2.mat
+  artifactKey: Guid(e386a1067ceae8f458a1f9486336e20e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_Simple city plain/Mesh/Materials/roof 2.mat using Guid(e386a1067ceae8f458a1f9486336e20e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7d3aa690e916b127ba7ad1c039ebe54') in 0.017234 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/01_Simple city plain/Material & Texture/Colors_buildings/K9.mat
+  artifactKey: Guid(8d368d2c617522b4f8385162f26cacfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_Simple city plain/Material & Texture/Colors_buildings/K9.mat using Guid(8d368d2c617522b4f8385162f26cacfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8acd8c5752ef99a38c3455ed3279d1d') in 0.065134 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/01_Simple city plain/Mesh/Materials/Material.mat
+  artifactKey: Guid(a5dbee8da718cee4181fc6bc7f769fc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_Simple city plain/Mesh/Materials/Material.mat using Guid(a5dbee8da718cee4181fc6bc7f769fc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a21ce14146f04f2a4f4c90b3b472ae50') in 0.017884 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/01_Simple city plain/Material & Texture/Colors_buildings/k11.mat
+  artifactKey: Guid(a7f2d3722f408d146b37cba315bc996f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_Simple city plain/Material & Texture/Colors_buildings/k11.mat using Guid(a7f2d3722f408d146b37cba315bc996f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82bffae50d1137530463e9102fbaed11') in 0.026703 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/01_Simple city plain/Material & Texture/Colors_buildings/K7.mat
+  artifactKey: Guid(2100b85841ac32940a50ec36409b49c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_Simple city plain/Material & Texture/Colors_buildings/K7.mat using Guid(2100b85841ac32940a50ec36409b49c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3aa8202ad337046a9fd166d1c5c8e3c7') in 0.029534 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/01_Simple city plain/Mesh/Materials/metal.mat
+  artifactKey: Guid(98177fb0279e7cb4ebcecded440f5524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_Simple city plain/Mesh/Materials/metal.mat using Guid(98177fb0279e7cb4ebcecded440f5524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6dd1358406f64b4eb1b2dce07aa8a67') in 0.015081 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/01_Simple city plain/Mesh/Materials/Grid_texture.mat
+  artifactKey: Guid(14ec06fd073724b42abf110722c512a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_Simple city plain/Mesh/Materials/Grid_texture.mat using Guid(14ec06fd073724b42abf110722c512a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc4fe71af4b41b796c24143d520877e6') in 0.016486 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/01_Simple city plain/Mesh/Materials/stairs.mat
+  artifactKey: Guid(b0d888db86c37b04496e46ac6bb2820c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_Simple city plain/Mesh/Materials/stairs.mat using Guid(b0d888db86c37b04496e46ac6bb2820c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c4f82e3cbe967f43e440d0c841e2b57') in 0.014397 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/01_Simple city plain/Material & Texture/Colors_buildings/K2.mat
+  artifactKey: Guid(0b5ab4b8a0e43004ba5e294fbe6cf73a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_Simple city plain/Material & Texture/Colors_buildings/K2.mat using Guid(0b5ab4b8a0e43004ba5e294fbe6cf73a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66305b0b14e5273a8319e4c790fadd8c') in 0.031256 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/01_Simple city plain/Material & Texture/Colors_buildings/K1.mat
+  artifactKey: Guid(1a0dec1fa084e1b4abd7c6cf33e568ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_Simple city plain/Material & Texture/Colors_buildings/K1.mat using Guid(1a0dec1fa084e1b4abd7c6cf33e568ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db30c2bcb607ac2fe904db2d231de595') in 0.025567 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/01_Simple city plain/Mesh/Materials/Roof_01.mat
+  artifactKey: Guid(7e0f34633a81d8a4fb6bd04815cf0c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_Simple city plain/Mesh/Materials/Roof_01.mat using Guid(7e0f34633a81d8a4fb6bd04815cf0c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4231f6e403e50e029a68213671a6a23') in 0.015537 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/01_Simple city plain/Material & Texture/Colors_buildings/K10.mat
+  artifactKey: Guid(bdcbb625d2db6d344907f63d3439281d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_Simple city plain/Material & Texture/Colors_buildings/K10.mat using Guid(bdcbb625d2db6d344907f63d3439281d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e070e6a9ec136b9ee7199db2292f4ad') in 0.025895 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/01_Simple city plain/Mesh/Materials/Grass.mat
+  artifactKey: Guid(d0157a03ad213144eb407d9c0fcdb481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_Simple city plain/Mesh/Materials/Grass.mat using Guid(d0157a03ad213144eb407d9c0fcdb481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12d7559549bc664067e802d8affcd26e') in 0.016621 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/01_Simple city plain/Mesh/Materials/Roof.mat
+  artifactKey: Guid(07c360630b2349240869fb5bc5b20b30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_Simple city plain/Mesh/Materials/Roof.mat using Guid(07c360630b2349240869fb5bc5b20b30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09579459bb895eaf6d566b85f7e859fc') in 0.015990 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.852859 seconds.
+  path: Assets/01_Simple city plain/Mesh/Materials/fire_escape_01.mat
+  artifactKey: Guid(98b132492c04b5547b3155859367aee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_Simple city plain/Mesh/Materials/fire_escape_01.mat using Guid(98b132492c04b5547b3155859367aee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21f61358ef4454373e51b17df49b36f0') in 0.016069 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/01_Simple city plain/Mesh/Materials/fire_escape_02.mat
+  artifactKey: Guid(423899c0d4abf4e4eade8be23f90e6a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_Simple city plain/Mesh/Materials/fire_escape_02.mat using Guid(423899c0d4abf4e4eade8be23f90e6a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7c3a4bc1a71b62768c840cb2e6015b4') in 0.015074 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/01_Simple city plain/Mesh/Materials/Fire_escape_03.mat
+  artifactKey: Guid(4a9fe0964cf8c2e479ed83e6ca9240e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_Simple city plain/Mesh/Materials/Fire_escape_03.mat using Guid(4a9fe0964cf8c2e479ed83e6ca9240e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9abdadc43a21c6558e6b29a4ada441bc') in 0.013713 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.018953 seconds.
+  path: Assets/01_Simple city plain/Material & Texture/Colors_buildings/D1.mat
+  artifactKey: Guid(be3dd0dbeba4e0e44b4a036604ec5247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_Simple city plain/Material & Texture/Colors_buildings/D1.mat using Guid(be3dd0dbeba4e0e44b4a036604ec5247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b092d69d7b9582e0b29f55a07100e3e') in 0.032036 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/01_Simple city plain/Material & Texture/Colors_buildings/D3.mat
+  artifactKey: Guid(08e170aeffe61fd49b962982cf27cd52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_Simple city plain/Material & Texture/Colors_buildings/D3.mat using Guid(08e170aeffe61fd49b962982cf27cd52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1c47e0ba9493ed3b1893379d928f23d') in 0.026262 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/01_Simple city plain/Mesh/Materials/Door_03.mat
+  artifactKey: Guid(fea5df081daed014db03aab4b3101dda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_Simple city plain/Mesh/Materials/Door_03.mat using Guid(fea5df081daed014db03aab4b3101dda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51c559b3e56a7cfcd976ba50c8b52768') in 0.016533 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/01_Simple city plain/Mesh/Materials/Facade.mat
+  artifactKey: Guid(766cd6d95103a854c92176f74e930530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_Simple city plain/Mesh/Materials/Facade.mat using Guid(766cd6d95103a854c92176f74e930530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89bcc40b79d6a4b27491b6b6a4de9dbf') in 0.018345 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/01_Simple city plain/Mesh/Materials/door 1.mat
+  artifactKey: Guid(874a424690023674fb3b4c70df64a73b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_Simple city plain/Mesh/Materials/door 1.mat using Guid(874a424690023674fb3b4c70df64a73b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ef430ece59c38a5aa240b755cf04db6') in 0.016400 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/01_Simple city plain/Mesh/Materials/Door_05.mat
+  artifactKey: Guid(513ec4370094a9f4f9d50cf8a6cbf051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_Simple city plain/Mesh/Materials/Door_05.mat using Guid(513ec4370094a9f4f9d50cf8a6cbf051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cbc1d563f6304b34d8b453fc1cb7be4') in 0.022313 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/01_Simple city plain/Mesh/Materials/Door_02.mat
+  artifactKey: Guid(0fd799501d535614cb19e149ef44bb9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_Simple city plain/Mesh/Materials/Door_02.mat using Guid(0fd799501d535614cb19e149ef44bb9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07ee104b2af202baef8bd4975fd0efb8') in 0.015643 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/01_Simple city plain/Material & Texture/Colors_buildings/E3.mat
+  artifactKey: Guid(4e806bb1fdee85a44aca49978bc274e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_Simple city plain/Material & Texture/Colors_buildings/E3.mat using Guid(4e806bb1fdee85a44aca49978bc274e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f27bcbdf21bdc65874cbdf9bde27441') in 0.027321 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/01_Simple city plain/Mesh/Materials/Door_01.mat
+  artifactKey: Guid(0170154188c44a6408b7b9c82d2db6f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_Simple city plain/Mesh/Materials/Door_01.mat using Guid(0170154188c44a6408b7b9c82d2db6f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c5774c10acdbb0c5f8c7e2d8eefe6b2') in 0.021617 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.044040 seconds.
+  path: Assets/01_Simple city plain/Material & Texture/Colors_buildings/B3.mat
+  artifactKey: Guid(6654366d45d22054abd260171b0f7c04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_Simple city plain/Material & Texture/Colors_buildings/B3.mat using Guid(6654366d45d22054abd260171b0f7c04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '456810ef30e7d61c9df32b3d04596c8c') in 0.025918 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/01_LowPolyBarriersPackFree/BarriersAssets/Materials/BarriersMain_M.mat
+  artifactKey: Guid(a1f48d7877435ff459de07b08955ed80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_LowPolyBarriersPackFree/BarriersAssets/Materials/BarriersMain_M.mat using Guid(a1f48d7877435ff459de07b08955ed80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea5d8f9aabf8c3087d168795552bf14d') in 0.054706 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
