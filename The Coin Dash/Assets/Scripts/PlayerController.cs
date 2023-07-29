@@ -157,7 +157,7 @@ public class PlayerController : MonoBehaviour
         yield return new WaitForSeconds(4);
         if (speed < maxSpeed)
         {
-            speed += 1;
+            speed += 2;
             StartCoroutine(SpeedIncrease());
         }
     }
@@ -212,7 +212,7 @@ public class PlayerController : MonoBehaviour
         characterController.center = new Vector3(0, 2f, 0);
         characterController.height = 2;
 
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(0.75f);
 
         capsuleCollider.center = new Vector3(0, 1.5f, 0);
         capsuleCollider.height = 3;
