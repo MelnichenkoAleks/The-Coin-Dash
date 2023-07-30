@@ -51,7 +51,7 @@ public class SwipeController : MonoBehaviour
         }
 
         
-        if (swipeDelta.magnitude > 25)
+        if (swipeDelta.magnitude > 20)
         {
             
             float x = swipeDelta.x;

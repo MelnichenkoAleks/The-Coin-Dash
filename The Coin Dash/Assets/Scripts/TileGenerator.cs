@@ -6,7 +6,7 @@ public class TileGenerator : MonoBehaviour
     public GameObject[] tilePrefabs;
     private List<GameObject> activeTiles = new List<GameObject>();
     private float spawnPos = 0;
-    private float tileLength = 100;
+    private float tileLength = 200;
 
     [SerializeField] private Transform player;
     private int startTiles = 6;
@@ -26,7 +26,7 @@ public class TileGenerator : MonoBehaviour
 
     void Update()
     {
-        if (player.position.z - 75 > spawnPos - (startTiles * tileLength))
+        if (player.position.z - 175 > spawnPos - (startTiles * tileLength))
         {
             SpawnRandomTile();
             DeleteTile();
